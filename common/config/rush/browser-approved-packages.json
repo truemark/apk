@@ -1,0 +1,34 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@aws-sdk/client-ssm",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest-docblock",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest-runner",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "jest-runner-groups",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "ts-jest",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "packages" ]
+    }
+  ]
+}
