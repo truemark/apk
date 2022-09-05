@@ -505,7 +505,8 @@
       "projectFolder": "packages/aws-ssm",
       "reviewCategory": "packages",
       "tags": [ "packages" ],
-      "shouldPublish": true
+      "shouldPublish": true,
+      "publishFolder": "dist"
     }
   ]
 }
