@@ -506,7 +506,8 @@
       "reviewCategory": "packages",
       "tags": [ "packages" ],
       "shouldPublish": true,
-      "publishFolder": "dist"
+      "publishFolder": "dist",
+      "versionPolicyName": "apk"
     }
   ]
 }
