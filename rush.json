@@ -504,7 +504,8 @@
       "packageName": "@truemark/apk-aws-ssm",
       "projectFolder": "packages/aws-ssm",
       "reviewCategory": "packages",
-      "tags": [ "packages" ]
+      "tags": [ "packages" ],
+      "shouldPublish": true
     }
   ]
 }
