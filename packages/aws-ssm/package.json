@@ -21,9 +21,7 @@
   },
   "exports": {
     ".": "./dist/index.js",
-    "./package.json": "./package.json",
-    "./LICENSE": "./LICENSE",
-    "./aws-ssm": "./dist/aws-ssm/index.js"
+    "./package.json": "./package.json"
   },
   "publishConfig": {
     "access": "public"
