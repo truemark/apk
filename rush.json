@@ -506,7 +506,7 @@
       "reviewCategory": "packages",
       "tags": [ "packages" ],
       "shouldPublish": true,
-      "publishFolder": "dist",
+      "publishFolder": "packages/aws-ssm/dist",
       "versionPolicyName": "apk"
     }
   ]
