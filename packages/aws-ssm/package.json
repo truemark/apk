@@ -28,5 +28,6 @@
   },
   "dependencies": {
     "@aws-sdk/client-ssm": "~3.163.0"
-  }
+  },
+  "files": ["dist"]
 }
