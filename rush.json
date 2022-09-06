@@ -502,11 +502,11 @@
     // }
     {
       "packageName": "@truemark/apk-aws-ssm",
-      "projectFolder": "packages/aws-ssm",
+      "projectFolder": "./packages/aws-ssm",
       "reviewCategory": "packages",
       "tags": [ "packages" ],
       "shouldPublish": true,
-      "publishFolder": "packages/aws-ssm/dist",
+      "publishFolder": "./dist",
       "versionPolicyName": "apk"
     }
   ]
