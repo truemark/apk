@@ -2,8 +2,8 @@
   "name": "@truemark/apk-aws-ssm",
   "version": "0.0.2-4",
   "license": "Apache 2.0",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -28,6 +28,5 @@
   },
   "dependencies": {
     "@aws-sdk/client-ssm": "~3.163.0"
-  },
-  "files": ["dist"]
+  }
 }
