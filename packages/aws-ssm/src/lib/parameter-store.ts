@@ -3,7 +3,7 @@ import {
   GetParameterCommand,
   GetParameterCommandInput,
   GetParameterCommandOutput,
-  GetParametersByPathCommand,
+  GetParametersByPathCommand, GetParametersByPathCommandInput,
   GetParametersByPathCommandOutput,
   ParameterTier,
   ParameterType,
@@ -13,7 +13,6 @@ import {
   SSMClient,
   Tag
 } from "@aws-sdk/client-ssm";
-import {GetParametersByPathCommandInput} from "@aws-sdk/client-ssm/dist-types/commands/GetParametersByPathCommand";
 
 export interface ParameterStoreProps {
   /**
