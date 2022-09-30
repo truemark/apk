@@ -7,6 +7,7 @@ importers:
 
   ../../packages/aws-lambda:
     specifiers:
+      '@types/aws-lambda': ~8.10.100
       '@types/jest': ^28.0.0
       '@types/node': 18.7.14
       jest: ^28.0.1
@@ -15,6 +16,8 @@ importers:
       jest-runner-groups: ~2.2.0
       ts-jest: ^28.0.8
       typescript: ~4.8.2
+    dependencies:
+      '@types/aws-lambda': 8.10.106
     devDependencies:
       '@types/jest': 28.1.8
       '@types/node': 18.7.14
@@ -1431,6 +1434,10 @@ packages:
     dependencies:
       '@sinonjs/commons': 1.8.3
     dev: true
+
+  /@types/aws-lambda/8.10.106:
+    resolution: {integrity: sha512-yzgMaql7aW1by1XuhKhovuhLyK/1A60lapFXDXXBeHmoyRGQFO2T8lkL3g8hAhHoW5PEvqPJFWPd8jvXiRnxeQ==}
+    dev: false
 
   /@types/babel__core/7.1.19:
     resolution: {integrity: sha512-WEOTgRsbYkvA/KCsDwVEGkd7WAr1e3g31VHQ8zy5gul/V1qKullU/BU5I68X5v7V3GnB9eotmom4v5a5gjxorw==}
