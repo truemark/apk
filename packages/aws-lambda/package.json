@@ -1,5 +1,5 @@
 {
-  "name": "@truemark/apk-aws-ssm",
+  "name": "@truemark/apk-aws-lambda",
   "version": "0.0.2-5",
   "license": "Apache 2.0",
   "main": "dist/index.js",
@@ -27,6 +27,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@aws-sdk/client-ssm": "~3.163.0"
+
   }
 }

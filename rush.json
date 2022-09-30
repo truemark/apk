@@ -374,7 +374,7 @@
    * that read these JSON files and do something with them.  These scripts are typically registered
    * in the "eventHooks" section.
    */
-   "telemetryEnabled": true,
+   "telemetryEnabled": false,
 
   /**
    * Allows creation of hotfix changes. This feature is experimental so it is disabled by default.
@@ -503,6 +503,15 @@
     {
       "packageName": "@truemark/apk-aws-ssm",
       "projectFolder": "packages/aws-ssm",
+      "reviewCategory": "packages",
+      "tags": [ "packages" ],
+      "shouldPublish": true,
+      "publishFolder": "./dist",
+      "versionPolicyName": "apk"
+    },
+    {
+      "packageName": "@truemark/apk-aws-lambda",
+      "projectFolder": "packages/aws-lambda",
       "reviewCategory": "packages",
       "tags": [ "packages" ],
       "shouldPublish": true,
