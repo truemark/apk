@@ -1,7 +1,8 @@
 import {ValidationError} from "./errors";
 
 export function notEmpty(name: string, o?: any): asserts o is NonNullable<any> {
-  if (o === undefined || o === null || (typeof o === "string" && o.trim() === "")) {
+  if (o === undefined || o === null || (typeof o === "string" && o.trim() === "") ||
+      (Array.isArray(o) && o.length === 0)) {
     throw new ValidationError(`${name} may not be empty`);
   }
 }
@@ -18,13 +19,13 @@ export function isEmail(name: string, o?: string) {
   }
 }
 
-export function maxLength(name: string, length: number, o?: string) {
+export function maxLength(name: string, length: number, o?: string | any[]) {
   if (o !== undefined && o !== null && o.length > length) {
     throw new ValidationError(`length of ${name} may not exceed ${length}`);
   }
 }
 
-export function minLength(name: string, length: number, o?: string) {
+export function minLength(name: string, length: number, o?: string | any[]) {
   if (o !== undefined && o !== null && o.length < length) {
     throw new ValidationError(`length of ${name} may not be less than ${length}`);
   }
