@@ -82,7 +82,7 @@ export class CacheControl {
 
   headers(): Record<string, string> {
     return {
-      "Cache-Control": this.headerValue()
+      "cache-control": this.headerValue()
     }
   }
 
