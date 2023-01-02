@@ -20,7 +20,7 @@ The following commands will increment and publish a new version to
 AWS CodeArtifact.
 
 ```bash
-export NPM_TOKEN="<<SECRET>>"
+export NPM_AUTH_TOKEN="<<SECRET>>"
 rush version --bump -b main
 rush publish --include-all --apply --publish
 ```
