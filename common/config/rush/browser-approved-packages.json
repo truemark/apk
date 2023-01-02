@@ -7,6 +7,14 @@
       "allowedCategories": [ "packages" ]
     },
     {
+      "name": "@middy/core",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@middy/util",
+      "allowedCategories": [ "packages" ]
+    },
+    {
       "name": "jest",
       "allowedCategories": [ "packages" ]
     },

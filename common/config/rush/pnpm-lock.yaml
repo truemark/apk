@@ -51,6 +51,33 @@ importers:
       ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
       typescript: 4.8.2
 
+  ../../packages/middy-http-router:
+    specifiers:
+      '@middy/core': ~4.0.9
+      '@middy/util': ~4.0.9
+      '@types/aws-lambda': ~8.10.100
+      '@types/jest': ^28.0.0
+      '@types/node': 18.7.14
+      jest: ^28.0.1
+      jest-docblock: ~29.0.0
+      jest-runner: ~29.0.2
+      jest-runner-groups: ~2.2.0
+      ts-jest: ^28.0.8
+      typescript: ~4.8.2
+    dependencies:
+      '@middy/core': 4.0.9
+      '@middy/util': 4.0.9
+      '@types/aws-lambda': 8.10.106
+    devDependencies:
+      '@types/jest': 28.1.8
+      '@types/node': 18.7.14
+      jest: 28.1.3_@types+node@18.7.14
+      jest-docblock: 29.0.0
+      jest-runner: 29.0.2
+      jest-runner-groups: 2.2.0_huumxyvluaxgw6zdxbf7pln4ky
+      ts-jest: 28.0.8_556mfp7b5dutuj2jcrj5i7zc5q
+      typescript: 4.8.2
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -1418,6 +1445,16 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
+
+  /@middy/core/4.0.9:
+    resolution: {integrity: sha512-DZjkBhBJD82UmkFgOebtlluiYpHSYGYVShNvfLUMI8u2pqKu4t00C0oPtYCVsIhU2gyhSdFP4THMD58jn01SIA==}
+    engines: {node: '>=16'}
+    dev: false
+
+  /@middy/util/4.0.9:
+    resolution: {integrity: sha512-p3db9lvzZp+jIYle5hvgBXig5nMoTPTa1Q5ZlZhoFe6uyMkf3IvMhnSaSrHbo+1sOYyyXcVEly4gqMFr2zHf/Q==}
+    engines: {node: '>=16'}
+    dev: false
 
   /@sinclair/typebox/0.24.35:
     resolution: {integrity: sha512-iN6ehuDndiTiDz2F+Orv/+oHJR+PrGv+38oghCddpsW4YEZl5qyLsWxSwYUWrKEOfjpGtXDFW6scJtjpzSLeSw==}
