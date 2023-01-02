@@ -21,6 +21,7 @@ AWS CodeArtifact.
 
 ```bash
 export NPM_AUTH_TOKEN="<<SECRET>>"
+rush build
 rush version --bump -b main
 rush publish --include-all --apply --publish
 ```
