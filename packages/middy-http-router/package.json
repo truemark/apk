@@ -1,6 +1,6 @@
 {
   "name": "@truemark/middy-http-router",
-  "version": "0.0.2-13",
+  "version": "0.0.2-14",
   "license": "Apache 2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
