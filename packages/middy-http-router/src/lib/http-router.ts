@@ -38,7 +38,7 @@ function isAPIGatewayProxyEventV2(event: any): event is APIGatewayProxyEventV2 {
 }
 
 
-export function httpRouteHandler<TEvent extends ALBEvent | APIGatewayProxyEvent | APIGatewayProxyEventV2>(routes: Route<TEvent>[]): MiddyfiedHandler {
+export function httpRouterHandler<TEvent extends ALBEvent | APIGatewayProxyEvent | APIGatewayProxyEventV2>(routes: Route<TEvent>[]): MiddyfiedHandler {
 
   const staticPathStaticContentRoutes: Record<string, Record<string, Record<string, IRoute<TEvent>>>> = {
     "HEAD": {}, "GET": {}, "POST": {}, "PUT": {}, "DELETE": {}, "OPTIONS": {}}; // method, path, content-type
@@ -135,7 +135,7 @@ export function httpRouteHandler<TEvent extends ALBEvent | APIGatewayProxyEvent 
       }
     }
     if (route === undefined) {
-      throw createError(404, "Route not found");
+      throw createError(404, "Not found");
     }
 
     return route.handler(event, context, callback);
