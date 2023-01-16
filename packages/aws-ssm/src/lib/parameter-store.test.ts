@@ -2,7 +2,7 @@
  * @group integration
  */
 
-import {ParameterStore} from "../../src";
+import {ParameterStore} from "../index";
 import * as crypto from "crypto";
 
 async function sleep(ms): Promise<void> {
