@@ -10,8 +10,8 @@ import {
   notBlank,
   notEmpty,
   notNull
-} from "./validation";
-import {NotFoundError, ValidationError} from "./errors";
+} from "./validators";
+import {ValidationError} from "./validation-error";
 
 test("Test notNull", () => {
   expect(() => notNull("test", null)).toThrow(ValidationError);

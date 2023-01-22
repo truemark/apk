@@ -1,5 +1,5 @@
 {
-  "name": "@truemark/apk-aws-lambda",
+  "name": "@truemark/apk-validator",
   "version": "0.0.2-18",
   "license": "Apache 2.0",
   "main": "dist/index.js",
@@ -27,7 +27,5 @@
     "access": "public"
   },
   "dependencies": {
-    "@types/aws-lambda": "~8.10.100",
-    "@truemark/apk-validator": "workspace:*"
   }
 }

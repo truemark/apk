@@ -519,6 +519,15 @@
       "versionPolicyName": "apk"
     },
     {
+      "packageName": "@truemark/apk-validator",
+      "projectFolder": "packages/validator",
+      "reviewCategory": "packages",
+      "tags": [ "packages" ],
+      "shouldPublish": true,
+      "publishFolder": "./dist",
+      "versionPolicyName": "apk"
+    },
+    {
       "packageName": "@truemark/middy-http-router",
       "projectFolder": "packages/middy-http-router",
       "reviewCategory": "packages",

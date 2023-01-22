@@ -1,6 +1,5 @@
 import {APIGatewayProxyEventV2} from "aws-lambda";
-import {notEmpty} from "./validation";
-import {ValidationError} from "./errors";
+import {notEmpty, ValidationError} from "@truemark/apk-validator";
 
 const BASE64 = "base64";
 const UTF8 = "utf8";
