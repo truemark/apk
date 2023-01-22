@@ -1,6 +1,6 @@
 {
   "name": "@truemark/apk-validator",
-  "version": "0.0.2-18",
+  "version": "0.0.2-19",
   "license": "Apache 2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
